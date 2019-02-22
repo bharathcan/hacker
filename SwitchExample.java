@@ -2,19 +2,18 @@ import java.io.*;
 
 public class SwitchExample{
   public static void main(String[] args) throws Exception{
-  int x, y;
+ 
   BufferedReader object = new BufferedReader
      (new InputStreamReader(System.in));
   System.out.println("Enter two numbers for operation:");
   try{
-  x = Integer.parseInt(object.readLine());
-  y = Integer.parseInt(object.readLine());
+  
   System.out.println("1. Add");
   System.out.println("2. Subtract");
   System.out.println("3. Multiply");
   System.out.println("4. Divide");
   System.out.println("enter your choice:");
-  int a= Integer.parseInt(object.readLine());
+ int a= Integer.parseInt(object.readLine());
   switch (a){  
   case 1:
  System.out.println("Enter the number one=" + (x+y));
